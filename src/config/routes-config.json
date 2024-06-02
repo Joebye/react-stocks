@@ -1,0 +1,6 @@
+{
+    "always": [
+        {"to": "/chart", "label": "Overview Chart"},
+        {"to": "/histdata", "label": "Historical Data"}
+    ]
+}
