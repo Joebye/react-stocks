@@ -7,8 +7,8 @@ import moment from "moment"
         includeExtended: "True",
         period: "1",
         precision: "Hour",
-        startTime: moment(moment()).subtract(30, 'days').format("MM/DD/YYYY").concat('%2023:59'),
-        endTime: moment().format("MM/DD/YYYY").concat('%2000:00')
+        startTime: moment(moment()).subtract(30, 'days').format("MM/DD/YYYY").concat('%2000:00'),
+        endTime: moment().format("MM/DD/YYYY").concat('%2023:59')
 
     }
 
